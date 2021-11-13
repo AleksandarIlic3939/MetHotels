@@ -6,7 +6,7 @@
         <a class="btn btn-secondary" href="{{smestaj.link}}">{{smestaj.domain()}}</a><br><br>
         <h4 class="card-title" style="text-align: center; color: #0d6efd;">{{smestaj.price}} Din.</h4>
         <p style="text-align: center; font-weight: bold;">(cena za noćenje)</p>
-        <ul class="ui big horizontal list voters" style="list-style-type: none;">
+        <ul class="ui big horizontal list voters" style="list-style-type: none; margin-right: 30px; margin-top: 30px;">
             <li class="item">
                 <b>Like: </b>
                 <a href (click)="voteUp()">
@@ -24,6 +24,12 @@
                 </a>
             </li>
         </ul>
+        <div class="form-group" style="margin-top: 30px;">
+            <input class="form-control" [(ngModel)]="updateTitle" placeholder="update title" style="margin-bottom: 8px;">
+            <input class="form-control" [(ngModel)]="updatePrice" placeholder="update price" style="margin-bottom: 8px;">
+            <a (click)="changeContent(updateTitle, updatePrice)" class="btn btn-primary">Change content</a>
+            <a (click)="deleteProduct()" class="btn btn-danger">Delete</a>
+        </div>
     </div>
 </div>
 <div><br></div>

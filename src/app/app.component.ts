@@ -9,8 +9,8 @@ import { Smestaj } from './smestaj/smestaj.model';
 export class AppComponent {
 
   title = 'MetHotels';
-  searchTerm: string='';
-  lista_smestaja: Smestaj[];
+  searchText: string = '';
+  public lista_smestaja: Smestaj[] = [];
 
   constructor() {
     this.lista_smestaja = [
@@ -27,6 +27,18 @@ export class AppComponent {
     link.value = '';
     price.value = '';
     return false;
+  }
+
+  deleteSmestaj(smestaj: Smestaj) {
+    this.lista_smestaja = this.lista_smestaja.filter(item => {
+      return item.title !== smestaj.title;
+    })
+  }
+
+  updateSmestaj(smestaj: Smestaj) {
+    let index = this.lista_smestaja.findIndex(i => i.title === smestaj.title);
+    this.lista_smestaja[index].title = smestaj.title;
+    this.lista_smestaja[index].price = smestaj.price;
   }
 
   reverse() {

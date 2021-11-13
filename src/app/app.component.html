@@ -371,16 +371,22 @@
     </button>
   </form><br><br>
 
-  <div class="ui grid posts">
-    <div class=" mb-5">
+  <div class="container mt-4 mb-4">
+    <div class="form-group col-md-3">
       <h3>Filter</h3>
-      <input type="text" class="form-control" [(ngModel)]="searchTerm" placeholder="search"><br>
+      <input class="form-control" [(ngModel)]="searchText" placeholder="search"><br>
       <button (click)="shuffle()" class="btn btn-secondary">
         Random
       </button>
     </div>
     
-    <app-smestaj *ngFor="let smestaj of lista_smestaja | filter:searchTerm" [smestaj]="smestaj"></app-smestaj>
+    <div class="row" style="margin-top: 70px;">
+      <div class="col-md-4" *ngFor="let smestaj of lista_smestaja | filter : searchText; index as i; ">
+        <app-smestaj
+          (smestajToDelete)="deleteSmestaj($event)"
+          (updateSmestaj)="updateSmestaj($event)"
+          [smestaj]="smestaj"></app-smestaj>
+      </div>
   </div>
   <br><br>
 
