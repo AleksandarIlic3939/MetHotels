@@ -1,0 +1,21 @@
+<form [formGroup]="smestajForm" (ngSubmit)="submitForm()" class="ui large form segment">
+    <h3 class="ui header">Dodaj smeštaj</h3><br>
+    <div class="mb-3">
+      <label for="title" class="form-label">Naziv smeštaja: </label>
+      <input formControlName="title" name="title" class="form-control">
+      <small *ngIf="smestajForm.get('title').invalid && smestajForm.get('title').touched" class="text-danger">Title is required. (minimum 6 characters)</small>
+    </div>
+    <div class="mb-3">
+      <label for="link" class="form-label">Link smeštaja: </label>
+      <input formControlName="link" name="link" class="form-control" placeholder="e.g. https://www.example.com">
+      <small *ngIf="link.invalid && link.touched" class="text-danger">Link is required. (minimum 6 characters)</small>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Cena smeštaja: </label>
+      <input formControlName="price" name="price" class="form-control" placeholder="e.g. 5.000,00">
+      <small *ngIf="price.invalid && price.touched" class="text-danger">Price is required. (minimum 6 characters)</small>
+    </div>
+    <button [disabled]="smestajForm.invalid" type="submit" name="submit" class="btn btn-primary w-100">
+      Dodaj
+    </button>
+</form>
