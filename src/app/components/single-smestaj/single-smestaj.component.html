@@ -1,0 +1,17 @@
+<div class="card" style="width: 18rem; padding: 0px 0px;">
+    <img src="https://features.api.westelm.com/wp-content/uploads/2020/03/we_zoom_2.jpg" class="card-img-top" alt="Smestaj">
+    <div class="card-body">
+        <h5 class="card-title">{{smestaj.title}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Points : ( {{smestaj.votes}} )</h6>
+        <a class="btn btn-secondary" href="{{smestaj.link}}">{{smestaj.domain()}}</a><br><br>
+        <h4 class="card-title" style="text-align: center; color: #0d6efd;"><del>{{smestaj.price}} Din.</del></h4>
+        <p style="text-align: center; font-weight: bold;">(cena za noćenje)</p><br>
+        <div class="d-flex card text-center" style="padding: 10px; background-color: wheat;">
+            <div class="image2"><img src="https://i.imgur.com/DC94rZe.png" width="100"></div>
+            <h3>25% OFF</h3><span class="d-block"><i>Sniženo na sve rezervacije!</i></span><br>
+            <h4 class="card-title" style="text-align: center; color: #dc3545;">{{totalPrice()}} Din.</h4>
+            <p style="text-align: center; font-weight: bold;">(cena za 5 noćenja)</p>
+        </div><br>
+    </div>
+</div>
+<div><br><br></div>

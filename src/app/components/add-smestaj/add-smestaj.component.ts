@@ -1,6 +1,8 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Smestaj } from 'src/app/smestaj/smestaj.model';
+import { ActivatedRoute } from '@angular/router';
+import { Smestaj } from 'src/app/models/smestaj';
+import { SmestajService } from 'src/app/services/smestaj.service';
 
 @Component({
   selector: 'app-add-smestaj',
@@ -11,10 +13,12 @@ export class AddSmestajComponent implements OnInit {
 
   public smestajForm: FormGroup;
 
-  @Output() smestajToAdd: EventEmitter<Smestaj>;
+  public lista_smestaja: Smestaj[] = [];
 
-  constructor() {
-    this.smestajToAdd = new EventEmitter();
+  constructor(private _smestajService: SmestajService, private _route: ActivatedRoute) {
+    this._smestajService.getListaSmestaja().subscribe((data) => {
+      this.lista_smestaja = data;
+    })
   }
 
   ngOnInit(): void {
@@ -23,6 +27,8 @@ export class AddSmestajComponent implements OnInit {
 
   public initForm() {
     this.smestajForm = new FormGroup({
+      'id': new FormControl(1, [
+        Validators.required, Validators.pattern(/^-?(0|[1-9]\d*)?$/)]),
       'title': new FormControl(null, [
         Validators.required, Validators.minLength(6)
       ]),
@@ -35,12 +41,26 @@ export class AddSmestajComponent implements OnInit {
     });
   }
 
-  public submitForm() {
+  public submitForm(): boolean {
+    let id = this.smestajForm.get('id').value;
     let title = this.smestajForm.get('title').value;
     let link = this.smestajForm.get('link').value;
     let price = this.smestajForm.get('price').value;
-    let smestaj = new Smestaj(title, link, price);
-    this.smestajToAdd.emit(smestaj);
+    let smestaj = new Smestaj(id, title, link, price, 0);
+    this.createSmestaj(smestaj);
+    alert('Uspesno je dodat smestaj!\n\n' + JSON.stringify(smestaj));
+    window.location.replace('./lista_smestaja');
+    return false
+  }
+
+  public createSmestaj(smestaj: Smestaj) {
+    this._smestajService.createSmestaj(smestaj).subscribe((data) => {
+      this.lista_smestaja.unshift(data);
+    })
+  }
+
+  get id() {
+    return this.smestajForm.get('id');
   }
 
   get title() {

@@ -1,0 +1,340 @@
+{
+  "lista_smestaja": [
+    {
+      "id": 4,
+      "title": "Unbranded Metal Hat",
+      "link": "http://amber.biz",
+      "price": "356.00",
+      "votes": 27
+    },
+    {
+      "id": 5,
+      "title": "Sleek Fresh Fish",
+      "link": "http://magdalen.info",
+      "price": "59.00",
+      "votes": 34
+    },
+    {
+      "id": 6,
+      "title": "Incredible Concrete Keyboard",
+      "link": "https://josianne.com",
+      "price": "908.00",
+      "votes": 59
+    },
+    {
+      "id": 7,
+      "title": "Intelligent Fresh Chicken",
+      "link": "http://yazmin.net",
+      "price": "932.00",
+      "votes": 34
+    },
+    {
+      "id": 8,
+      "title": "Sleek Concrete Chicken",
+      "link": "https://major.com",
+      "price": "578.00",
+      "votes": 33
+    },
+    {
+      "id": 9,
+      "title": "Unbranded Plastic Salad",
+      "link": "https://tracy.net",
+      "price": "820.00",
+      "votes": 40
+    },
+    {
+      "id": 10,
+      "title": "Handcrafted Granite Gloves",
+      "link": "https://roman.net",
+      "price": "670.00",
+      "votes": 53
+    },
+    {
+      "id": 11,
+      "title": "Handcrafted Concrete Cheese",
+      "link": "http://stewart.biz",
+      "price": "548.00",
+      "votes": 13
+    },
+    {
+      "id": 12,
+      "title": "Intelligent Concrete Computer",
+      "link": "http://kacey.com",
+      "price": "772.00",
+      "votes": 35
+    },
+    {
+      "id": 13,
+      "title": "Unbranded Steel Ball",
+      "link": "http://felipe.name",
+      "price": "13.00",
+      "votes": 41
+    },
+    {
+      "id": 14,
+      "title": "Practical Cotton Salad",
+      "link": "https://santa.net",
+      "price": "505.00",
+      "votes": 54
+    },
+    {
+      "id": 15,
+      "title": "Awesome Granite Ball",
+      "link": "https://eileen.name",
+      "price": "994.00",
+      "votes": 18
+    },
+    {
+      "id": 16,
+      "title": "Rustic Concrete Pizza",
+      "link": "http://jonathon.org",
+      "price": "270.00",
+      "votes": 59
+    },
+    {
+      "id": 17,
+      "title": "Small Granite Gloves",
+      "link": "https://ashtyn.org",
+      "price": "114.00",
+      "votes": 30
+    },
+    {
+      "id": 18,
+      "title": "Licensed Fresh Chips",
+      "link": "https://noemy.info",
+      "price": "572.00",
+      "votes": 55
+    },
+    {
+      "id": 19,
+      "title": "Practical Plastic Fish",
+      "link": "https://lon.net",
+      "price": "173.00",
+      "votes": 34
+    },
+    {
+      "id": 20,
+      "title": "Incredible Cotton Tuna",
+      "link": "https://seamus.com",
+      "price": "813.00",
+      "votes": 54
+    },
+    {
+      "id": 21,
+      "title": "Small Concrete Bike",
+      "link": "http://karley.org",
+      "price": "249.00",
+      "votes": 41
+    },
+    {
+      "id": 22,
+      "title": "Awesome Soft Bike",
+      "link": "http://lincoln.net",
+      "price": "940.00",
+      "votes": 34
+    },
+    {
+      "id": 23,
+      "title": "Gorgeous Rubber Tuna",
+      "link": "https://fleta.net",
+      "price": "921.00",
+      "votes": 21
+    },
+    {
+      "id": 24,
+      "title": "Fantastic Steel Mouse",
+      "link": "http://merlin.biz",
+      "price": "467.00",
+      "votes": 18
+    },
+    {
+      "id": 25,
+      "title": "Rustic Frozen Chair",
+      "link": "https://rosario.biz",
+      "price": "879.00",
+      "votes": 26
+    },
+    {
+      "id": 26,
+      "title": "Unbranded Concrete Tuna",
+      "link": "https://napoleon.info",
+      "price": "355.00",
+      "votes": 45
+    },
+    {
+      "id": 27,
+      "title": "Practical Cotton Salad",
+      "link": "https://destiney.info",
+      "price": "918.00",
+      "votes": 39
+    },
+    {
+      "id": 28,
+      "title": "Awesome Steel Bike",
+      "link": "http://lennie.biz",
+      "price": "830.00",
+      "votes": 16
+    },
+    {
+      "id": 29,
+      "title": "Fantastic Granite Bacon",
+      "link": "https://trenton.biz",
+      "price": "238.00",
+      "votes": 57
+    },
+    {
+      "id": 30,
+      "title": "Sleek Frozen Fish",
+      "link": "http://emmitt.biz",
+      "price": "249.00",
+      "votes": 37
+    },
+    {
+      "id": 31,
+      "title": "Licensed Granite Fish",
+      "link": "http://tressie.org",
+      "price": "120.00",
+      "votes": 31
+    },
+    {
+      "id": 32,
+      "title": "Intelligent Cotton Hat",
+      "link": "https://lina.name",
+      "price": "652.00",
+      "votes": 49
+    },
+    {
+      "id": 33,
+      "title": "Incredible Metal Shirt",
+      "link": "https://caleigh.com",
+      "price": "735.00",
+      "votes": 54
+    },
+    {
+      "id": 34,
+      "title": "Gorgeous Plastic Chips",
+      "link": "http://felicity.biz",
+      "price": "709.00",
+      "votes": 52
+    },
+    {
+      "id": 35,
+      "title": "Rustic Soft Bacon",
+      "link": "https://jacquelyn.net",
+      "price": "945.00",
+      "votes": 30
+    },
+    {
+      "id": 36,
+      "title": "Unbranded Soft Chair",
+      "link": "http://isabell.net",
+      "price": "24.00",
+      "votes": 44
+    },
+    {
+      "id": 37,
+      "title": "Incredible Granite Cheese",
+      "link": "http://elisha.name",
+      "price": "945.00",
+      "votes": 17
+    },
+    {
+      "id": 38,
+      "title": "Fantastic Metal Sausages",
+      "link": "https://marquis.info",
+      "price": "545.00",
+      "votes": 50
+    },
+    {
+      "id": 39,
+      "title": "Handcrafted Concrete Pizza",
+      "link": "http://robb.biz",
+      "price": "299.00",
+      "votes": 36
+    },
+    {
+      "id": 40,
+      "title": "Small Fresh Tuna",
+      "link": "http://rashawn.biz",
+      "price": "871.00",
+      "votes": 53
+    },
+    {
+      "id": 41,
+      "title": "Handcrafted Cotton Bike",
+      "link": "https://malcolm.name",
+      "price": "174.00",
+      "votes": 37
+    },
+    {
+      "id": 42,
+      "title": "Small Frozen Soap",
+      "link": "https://maribel.biz",
+      "price": "332.00",
+      "votes": 29
+    },
+    {
+      "id": 43,
+      "title": "Ergonomic Rubber Hat",
+      "link": "http://alexandrine.org",
+      "price": "486.00",
+      "votes": 11
+    },
+    {
+      "id": 44,
+      "title": "Tasty Soft Hat",
+      "link": "https://humberto.org",
+      "price": "689.00",
+      "votes": 19
+    },
+    {
+      "id": 45,
+      "title": "Tasty Concrete Soap",
+      "link": "http://cathryn.info",
+      "price": "223.00",
+      "votes": 32
+    },
+    {
+      "id": 46,
+      "title": "Handmade Soft Sausages",
+      "link": "https://kade.com",
+      "price": "321.00",
+      "votes": 53
+    },
+    {
+      "id": 47,
+      "title": "Handcrafted Fresh Chips",
+      "link": "http://jessica.net",
+      "price": "196.00",
+      "votes": 41
+    },
+    {
+      "id": 48,
+      "title": "Handmade Plastic Tuna",
+      "link": "https://jeramy.name",
+      "price": "503.00",
+      "votes": 16
+    },
+    {
+      "id": 49,
+      "title": "Handcrafted Rubber Table",
+      "link": "http://joey.org",
+      "price": "225.00",
+      "votes": 29
+    },
+    {
+      "id": 1,
+      "title": "lloooooooooooolll",
+      "link": "https://www.lol.com",
+      "price": "5000.00",
+      "votes": 0
+    },
+    {
+      "id": "adw",
+      "title": "dawasd",
+      "link": "dwaasd",
+      "price": "awdasd",
+      "votes": 0
+    }
+  ]
+}
