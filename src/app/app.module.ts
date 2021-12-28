@@ -11,6 +11,9 @@ import { AddSmestajComponent } from './components/add-smestaj/add-smestaj.compon
 import { SingleSmestajComponent } from './components/single-smestaj/single-smestaj.component';
 import { SmestajListingComponent } from './components/smestaj-listing/smestaj-listing.component';
 import { ViewSmestajComponent } from './components/view-smestaj/view-smestaj.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ViewSmestajComponent } from './components/view-smestaj/view-smestaj.com
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

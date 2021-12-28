@@ -13,6 +13,9 @@
 
 <div class="container mt-4 mb-4">
   <div class="row" style="margin-top: 70px;">
+    <div class="col-md-4" style="margin-left: 45%; margin-top: 15%;">
+      <mat-spinner *ngIf="lista_smestaja.length === 0"></mat-spinner>
+    </div>
     <div class="col-md-4" *ngFor="let smestaj of lista_smestaja | filter : searchText; index as i; ">
       <a [routerLink]="['/view-smestaj/', smestaj.id]" class="btn btn-primary">Pogledaj detalje</a>
       <app-single-smestaj [smestaj]="smestaj"></app-single-smestaj>

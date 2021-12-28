@@ -1,13 +1,6 @@
 {
   "lista_smestaja": [
     {
-      "id": 4,
-      "title": "Unbranded Metal Hat",
-      "link": "http://amber.biz",
-      "price": "356.00",
-      "votes": 27
-    },
-    {
       "id": 5,
       "title": "Sleek Fresh Fish",
       "link": "http://magdalen.info",
@@ -314,20 +307,6 @@
       "link": "https://jeramy.name",
       "price": "503.00",
       "votes": 16
-    },
-    {
-      "id": 49,
-      "title": "Handcrafted Rubber Table",
-      "link": "http://joey.org",
-      "price": "225.00",
-      "votes": 29
-    },
-    {
-      "id": 1,
-      "title": "lloooooooooooolll",
-      "link": "https://www.lol.com",
-      "price": "5000.00",
-      "votes": 0
     }
   ]
 }
